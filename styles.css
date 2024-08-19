@@ -1,0 +1,453 @@
+nav {
+    float: left;
+    display: block;
+    margin: 0;
+    background: #0F1738;
+    padding: 20px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    text-align: left;
+    color: #ffffff;
+}
+
+
+img  {
+    max-width: 100%;
+}
+
+
+section {
+    display: flex;
+    clear: both;
+}
+
+
+main {
+    width: 80%;
+    background-color: #ffffff;
+    height: 300px; 
+    display: flex;
+}
+
+
+.a{
+    width: 30%;
+    padding: 20px;
+}
+
+
+.a h1{
+    font-family: Inter;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 28.6px;
+    text-align: left;
+
+}
+
+
+.b{
+    width:50%;
+    padding: 20px;
+}
+
+
+.emily{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23.8px;
+    text-align: left;
+}
+
+
+.pie{
+    background: linear-gradient(105.84deg, #263A8B -1.73%, #1A213F 120.63%);
+    display: flex;
+    gap: 30px;
+    border-radius: 20px;
+    max-width: 350px;
+}
+
+
+#mail{
+    display: flex;
+    flex-direction:column ;
+}
+
+
+#maild1{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 22px;
+    align-items:center;
+}
+
+
+#mail1{
+    display: flex;
+    gap: 10px;
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 22px;
+    align-items:center;
+}
+
+#mail1 p{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+
+}
+
+
+#mail1 a{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19.6px;
+    color: #515BAE;
+
+}
+
+
+.tran{
+    display: none;
+}
+
+
+.mail2{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.p23{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color:solid black;
+
+}
+
+
+.task{
+    display: flex;
+    gap:30px
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    width: 100%;
+    width: 644px;
+    height: 340px;
+    border-radius: 10px;
+    border: 1px;
+}
+
+
+th  {
+    background-color: #F8F9FC;
+    
+}
+
+
+.tablem  {
+    display: none;
+}
+
+  
+td, th {
+    border-bottom: 1px solid #dddddd;
+    padding: 10px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    text-align: left;
+
+}
+
+
+.dash{
+    display: flex;
+    justify-content:space-between;
+    padding: 4px;
+}
+
+
+.dash3{
+    display: flex;
+    justify-content:space-between;
+    padding: 4px;
+}
+
+
+.dash1{
+    min-width: 160px;
+    gap: 10px;
+    opacity: 0px;
+}
+
+
+.dash1 img{
+    max-width: 24px;
+
+}
+
+
+.dash1,.dash1 p,.dash1 img{
+    display: flex ;
+    gap: 10px;
+   
+    
+}
+
+
+
+.dash2,.dash2 p,.dash2 img{
+    display: flex ;
+    gap: 10px;
+ 
+  
+}
+
+
+.dash2{
+    min-width: 160px;
+    gap: 10px;
+    opacity: 0px;
+    display: flex ;
+    gap: 10px;
+  
+}
+
+
+.dash2 img{
+    max-width: 24px;
+}
+
+
+
+nav{
+    display: flex;
+    flex-direction: column;
+    gap: 480px;
+
+}
+
+
+.jacob #j1{
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 18px;
+    text-align: left;
+
+}
+
+
+.task a{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18.2px;
+    text-align: left;
+    color: #6A6A6D;
+    text-decoration: none;
+
+}
+
+
+.task #my{
+    color: black;
+    text-decoration: underline;
+}
+
+
+h2{
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: left;
+
+}
+
+ 
+
+.dash1, .dash3 {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+
+
+.dash1 img, .dash3 img {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+
+.dash1:hover img, .dash3:hover img {
+    transform: scale(1.1);
+    opacity: 0.9;
+}
+
+
+.dash1 p, .jacob p {
+    margin-left: 10px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+
+.dash1:hover p, .jacob p {
+    color: #ff6600;
+    transform: translateX(5px);
+}
+
+
+nav {
+    transition: background-color 0.3s ease;
+}
+
+
+
+.r {
+    display: none;
+    transition: all 0.3s ease;
+}
+
+
+.r.show {
+    display: block;
+}
+
+
+#maild1.active {
+    background-color: #f0f0f0;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    
+    section{
+        display: flex;
+        flex-direction: column !important;
+    
+    }
+    nav{
+        display: flex;
+        flex-direction: column !important;
+        width: 100%;
+        max-height: 88px;
+  
+    }
+    main{
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+       padding: 2px;
+       padding: auto !important;
+    }
+    .a{width: 100%;}
+    .dash1{
+       display: none;
+    }
+    .dash3{
+       display: none;
+    }
+    .b{
+       width: 100%;
+    }
+    #mail1{
+       justify-content:space-between ;
+    }
+    .tabled{
+       display: none;
+  
+    }
+    .tablem{
+       display: flex;
+       flex-direction: column;
+    }
+    .tablem h3{
+       font-family: Inter;
+       font-size: 14px;
+       font-weight: 600;
+       line-height: 19.6px;
+       text-align: left;
+
+    }
+    .t1{
+       color: #6A6A6D;
+
+    }
+
+    .tablem p{
+       font-family: Inter;
+       font-size: 13px;
+       font-weight: 400;
+       line-height: 16.9px;
+       letter-spacing: 0.005em;
+       text-align: left;
+
+    }
+    .tran{
+       display: flex;
+    }
+    #maild1 a{
+       font-family: Inter;
+       font-size: 14px;
+       font-weight: 500;
+       line-height: 16px;
+       text-align: center;
+       color:#515BAE;
+
+    }
+    #maild1 h2{
+       font-family: Inter;
+       font-size: 16px;
+       font-weight: 500;
+       line-height: 20px;
+       text-align: left;
+
+    }
+    .r{
+       display: flex;
+       justify-content:space-between;
+       margin-right:150px ;
+       font-family: Inter;
+       font-size: 16px;
+       font-weight: 500;
+       line-height: 20px;
+       text-align: left;
+       color: #6A6A6D;
+    }
+    .tra{
+       display: flex;
+       gap: 10px;
+
+    }
+    .pay{
+       display: none;
+    }
+
+
+
+}
